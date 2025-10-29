@@ -1,3 +1,5 @@
+import VernaPhoto from "./photo/Verna.png";
+
 export const organizationData = {
   name: "Serikat Tani Nelayan Kabupaten Konawe",
   shortName: "STN Kabupaten Konawe",
@@ -179,7 +181,7 @@ export const boardMembers = [
     name: "VERNA ANDREW KEYNES RAMBE",
     position: "Biro Perencanaan Program",
     category: "Biro",
-    photo: null
+    photo: VernaPhoto
   },
   {
     id: 19,

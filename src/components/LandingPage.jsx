@@ -254,19 +254,28 @@ const LandingPage = () => {
           </div>
 
           {/* Members Grid */}
-          <div className="structure-grid">
-            {currentMembers.map((member) => (
-              <Card key={member.id} className="member-card">
-                <CardContent className="member-content">
-                  <div className="member-avatar">
-                    <Users className="w-12 h-12" />
-                  </div>
-                  <h3 className="member-name">{member.name}</h3>
-                  <p className="member-position">{member.position}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+            <div className="structure-grid">
+                {currentMembers.map((member) => (
+                    <Card key={member.id} className="member-card">
+                    <CardContent className="member-content">
+                        <div className="member-avatar">
+                        {member.photo ? (
+                            <img
+                            src={member.photo}
+                            alt={member.name}
+                            className="w-20 h-20 rounded-full object-cover mx-auto"
+                            />
+                        ) : (
+                            <Users className="w-12 h-12 text-gray-400" />
+                        )}
+                        </div>
+                        <h3 className="member-name">{member.name}</h3>
+                        <p className="member-position">{member.position}</p>
+                    </CardContent>
+                    </Card>
+                ))}
+            </div>
+
 
           {/* Pagination Controls */}
           <div className="pagination-container">
