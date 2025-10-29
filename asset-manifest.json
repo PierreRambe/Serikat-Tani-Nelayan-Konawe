@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/stn-konawe-website/static/css/main.b01590b8.css",
+    "main.js": "/stn-konawe-website/static/js/main.7b10c0ed.js",
+    "static/js/453.eb770efc.chunk.js": "/stn-konawe-website/static/js/453.eb770efc.chunk.js",
+    "index.html": "/stn-konawe-website/index.html",
+    "main.b01590b8.css.map": "/stn-konawe-website/static/css/main.b01590b8.css.map",
+    "main.7b10c0ed.js.map": "/stn-konawe-website/static/js/main.7b10c0ed.js.map",
+    "453.eb770efc.chunk.js.map": "/stn-konawe-website/static/js/453.eb770efc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b01590b8.css",
+    "static/js/main.7b10c0ed.js"
+  ]
+}
