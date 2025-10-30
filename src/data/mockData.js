@@ -40,7 +40,7 @@ export const organizationData = {
     phone1: "0877-6661-1577",
     phone2: "0878-1365-3393",
     email: "stn.konawe@gmail.com",
-    whatsapp: "6287766611577",
+    whatsapp: "6285298398338",
     address: "Kabupaten Konawe, Sulawesi Tenggara"
   }
 };
