@@ -255,26 +255,27 @@ const LandingPage = () => {
 
           {/* Members Grid */}
             <div className="structure-grid">
-                {currentMembers.map((member) => (
-                    <Card key={member.id} className="member-card">
-                    <CardContent className="member-content">
-                        <div className="member-avatar">
-                        {member.photo ? (
-                            <img
-                            src={member.photo}
-                            alt={member.name}
-                            className="w-20 h-20 rounded-full object-cover mx-auto"
-                            />
-                        ) : (
-                            <Users className="w-12 h-12 text-gray-400" />
-                        )}
-                        </div>
-                        <h3 className="member-name">{member.name}</h3>
-                        <p className="member-position">{member.position}</p>
-                    </CardContent>
-                    </Card>
-                ))}
+              {currentMembers.map((member) => (
+                <Card key={member.id} className="member-card overflow-hidden">
+                  <CardContent className="member-content text-center">
+                    <div className="member-avatar mx-auto w-auto h-auto rounded-full overflow-hidden border-2 border-gray-200">
+                      {member.photo ? (
+                        <img
+                          src={member.photo}
+                          alt={member.name}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <Users className="w-12 h-12 text-gray-400 mx-auto my-6" />
+                      )}
+                    </div>
+                    <h3 className="member-name mt-3 font-semibold text-lg">{member.name}</h3>
+                    <p className="member-position text-sm text-gray-500">{member.position}</p>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
+
 
 
           {/* Pagination Controls */}
