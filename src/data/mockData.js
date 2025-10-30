@@ -1,4 +1,5 @@
 import VernaPhoto from "./photo/Verna.png";
+import HasrulPhoto from "./photo/Ketuastn.png";
 
 export const organizationData = {
   name: "Serikat Tani Nelayan Kabupaten Konawe",
@@ -50,7 +51,7 @@ export const boardMembers = [
     name: "HASRUL",
     position: "Ketua",
     category: "Pengurus Inti",
-    photo: null
+    photo: HasrulPhoto
   },
   {
     id: 2,
@@ -69,14 +70,14 @@ export const boardMembers = [
   {
     id: 4,
     name: "NENENG ANDRIANI",
-    position: "Bendahara I",
+    position: "Bendahara",
     category: "Pengurus Inti",
     photo: null
   },
   {
     id: 5,
     name: "RISDAYANTI",
-    position: "Bendahara II",
+    position: "Wakil Bendahara",
     category: "Pengurus Inti",
     photo: null
   },
